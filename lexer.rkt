@@ -13,7 +13,7 @@
 (define-lex-abbrev reserved-words (:or "while" "{" "}"
                                        "+" ":" ";" "="
                                        "-" "*" "/" "%"
-                                       "(" ")"
+                                       "(" ")" "print"
                                        "if" "then"
                                        "else" "<" 
                                        "&&" "||" "!"))

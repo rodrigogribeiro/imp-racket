@@ -6,3 +6,4 @@ while (i < n) {
   fact = fact * 1 ;
   i = i - 1 ;
 }
+print fact ;
