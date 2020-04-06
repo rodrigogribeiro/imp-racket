@@ -12,10 +12,10 @@
 
 (define-lex-abbrev reserved-words (:or "while" "{" "}"
                                        "+" ":" ";" "="
-                                       "-" "*" "/"
+                                       "-" "*" "/" "%"
                                        "(" ")"
                                        "if" "then"
-                                       "else" "<" ">" "<>"
+                                       "else" "<" 
                                        "&&" "||" "!"))
 
 ; identifier lexical structure

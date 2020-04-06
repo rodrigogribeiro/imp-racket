@@ -5,7 +5,7 @@
 (define (read-syntax path port)
   (define tokens (apply-tokenizer make-tokenizer port))
   (strip-bindings
-   #`(module imp-tokens-mod imp/tokenize-only
+   #`(module imp-tokens-mod imp/debug/tokenize-only
        #,@tokens)))
 (module+ reader (provide read-syntax))
 
